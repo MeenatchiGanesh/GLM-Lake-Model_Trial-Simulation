@@ -1,0 +1,17 @@
+&glm_setup
+  lake_name = 'Lake Tahoe'
+  latitude = 43.09
+  longitude = -89.40
+  timezone = -6
+  start_date = '2022-01-01 00:00:00'
+  stop_date = '2022-12-31 23:59:59' 
+  time_step = 3600
+  depth = 25.0
+  surface_area = 40.0
+  inflow_file = 'inflow.csv'
+  outflow_file = 'outflow.csv'
+  meteo_file = 'meteo.csv'
+  output_file = 'output.nc'
+  turbidity = 0.2
+  mixing_coeff = 0.3
+/
